@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C7CE15E-A6BA-5ED9-0F84-947A067D341B" name="ranking_juego">
+<createdBy>Jose Capdeville P</createdBy>
+<createdTime>2021-06-27 22:43:30 UTC</createdTime>
+<ownerDesignName>MER_BD</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ranking" id="D043D5BE-C0B7-5CDD-2E99-51D6B90E70EF">
+<createdBy>Jose Capdeville P</createdBy>
+<createdTime>2021-06-27 22:46:37 UTC</createdTime>
+<ownerDesignName>MER_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_juego" id="AD12FBC0-E4D0-3DE5-8FDA-CB9830F8C880">
+<createdBy>Jose Capdeville P</createdBy>
+<createdTime>2021-06-27 22:44:13 UTC</createdTime>
+<ownerDesignName>MER_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62136ED1-A211-3033-B8AD-0A1E076FE4A8" referredColumn="22493280-BB35-2387-379B-2019E39B1DD9"/>
+</associations>
+</Column>
+<Column name="nota_usuario" id="737BEB0C-5C81-0044-C9A4-128A9ED8AD7D">
+<createdBy>Jose Capdeville P</createdBy>
+<createdTime>2021-06-27 22:44:40 UTC</createdTime>
+<ownerDesignName>MER_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nota" id="F9F7A8A9-4D37-6D14-0ACB-256F8AA167B7">
+<createdBy>Jose Capdeville P</createdBy>
+<createdTime>2021-06-27 22:45:04 UTC</createdTime>
+<ownerDesignName>MER_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="metascore" id="76ABCC0F-FCC6-1302-63A6-335424B714F9">
+<createdBy>Jose Capdeville P</createdBy>
+<createdTime>2021-06-29 18:11:38 UTC</createdTime>
+<ownerDesignName>MER_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E28FD171-B6B1-7655-AF03-BD1783034BA7" name="ranking_juego_PK">
+<createdBy>Jose Capdeville P</createdBy>
+<createdTime>2021-06-27 22:47:24 UTC</createdTime>
+<ownerDesignName>MER_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D043D5BE-C0B7-5CDD-2E99-51D6B90E70EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1302B741-001E-E250-6ECA-8805BDAF4C7F" name="ranking_juego_Juegos_FK">
+<createdBy>Jose Capdeville P</createdBy>
+<createdTime>2021-06-27 22:47:24 UTC</createdTime>
+<ownerDesignName>MER_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD12FBC0-E4D0-3DE5-8FDA-CB9830F8C880"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

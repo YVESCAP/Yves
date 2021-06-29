@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E2BD174-5CF0-D68A-6C93-1728F2E836D0" name="tmp_videogame">
+<createdBy>Jose Capdeville P</createdBy>
+<createdTime>2021-06-29 18:11:59 UTC</createdTime>
+<ownerDesignName>MER_BD</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="METASCORE" id="6619B035-69CB-8B21-06F2-222376E244A4">
+<createdBy>Jose Capdeville P</createdBy>
+<createdTime>2021-06-29 18:14:11 UTC</createdTime>
+<ownerDesignName>MER_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_JUEGO" id="2AEEE2C6-5865-69F0-58F7-87D527EE5855">
+<createdBy>Jose Capdeville P</createdBy>
+<createdTime>2021-06-29 18:14:46 UTC</createdTime>
+<ownerDesignName>MER_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_CONSOLA" id="FB78D27E-788E-4030-E37A-E1404FFE432C">
+<createdBy>Jose Capdeville P</createdBy>
+<createdTime>2021-06-29 18:15:28 UTC</createdTime>
+<ownerDesignName>MER_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOTA_USUARIO" id="6A27A5FF-8A40-E609-EFF7-6857F4A0F853">
+<createdBy>Jose Capdeville P</createdBy>
+<createdTime>2021-06-29 18:16:00 UTC</createdTime>
+<ownerDesignName>MER_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NOTA" id="C75537D2-0C37-1A96-4D5C-399B0A9FF7FE">
+<createdBy>Jose Capdeville P</createdBy>
+<createdTime>2021-06-29 18:16:41 UTC</createdTime>
+<ownerDesignName>MER_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

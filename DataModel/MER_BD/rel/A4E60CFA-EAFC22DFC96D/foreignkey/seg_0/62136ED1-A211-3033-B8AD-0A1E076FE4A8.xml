@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="62136ED1-A211-3033-B8AD-0A1E076FE4A8" containerWithKeyObject="5C7CE15E-A6BA-5ED9-0F84-947A067D341B" localFKIndex="1302B741-001E-E250-6ECA-8805BDAF4C7F" name="ranking_juego_Juegos_FK">
+<createdBy>Jose Capdeville P</createdBy>
+<createdTime>2021-06-27 22:47:24 UTC</createdTime>
+<ownerDesignName>MER_BD</ownerDesignName>
+<referredTableLongName>Juego</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B449A5DB-4D8F-8189-50D4-AEF9F8ED5E0D</referredTableID>
+<keyObject>B62638BF-A21B-B3E2-E29F-6F0D8A6A7693</keyObject>
+<referredKeyID>B62638BF-A21B-B3E2-E29F-6F0D8A6A7693</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_juego</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

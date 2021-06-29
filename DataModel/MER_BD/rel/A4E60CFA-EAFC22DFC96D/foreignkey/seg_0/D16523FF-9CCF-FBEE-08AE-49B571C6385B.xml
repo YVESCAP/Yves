@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D16523FF-9CCF-FBEE-08AE-49B571C6385B" containerWithKeyObject="B449A5DB-4D8F-8189-50D4-AEF9F8ED5E0D" localFKIndex="D1150BC1-8A2E-C53C-0BDE-C1AD742D00A4" name="Juegos_Consola_FK">
+<createdBy>Jose Capdeville P</createdBy>
+<createdTime>2021-06-27 22:40:26 UTC</createdTime>
+<ownerDesignName>MER_BD</ownerDesignName>
+<referredTableLongName>Consola</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>310520E5-0987-06F7-5AAE-892916ECC961</referredTableID>
+<keyObject>9EB71711-343B-F2BC-1A4F-4A6715C53B5A</keyObject>
+<referredKeyID>9EB71711-343B-F2BC-1A4F-4A6715C53B5A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_consola</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

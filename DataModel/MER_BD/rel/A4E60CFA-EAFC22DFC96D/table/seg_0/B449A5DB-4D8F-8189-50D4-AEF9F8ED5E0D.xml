@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B449A5DB-4D8F-8189-50D4-AEF9F8ED5E0D" name="Juego">
+<createdBy>Jose Capdeville P</createdBy>
+<createdTime>2021-06-27 22:38:15 UTC</createdTime>
+<ownerDesignName>MER_BD</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_juego" id="22493280-BB35-2387-379B-2019E39B1DD9">
+<createdBy>Jose Capdeville P</createdBy>
+<createdTime>2021-06-27 22:38:43 UTC</createdTime>
+<ownerDesignName>MER_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_consola" id="51B19354-56E3-769C-3849-802E414F7075">
+<createdBy>Jose Capdeville P</createdBy>
+<createdTime>2021-06-27 22:39:12 UTC</createdTime>
+<ownerDesignName>MER_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D16523FF-9CCF-FBEE-08AE-49B571C6385B" referredColumn="E6E1F2B9-551A-C7FB-4FC9-86283D3873A9"/>
+</associations>
+</Column>
+<Column name="nombre_juego" id="514C39B0-2AC5-DB28-0873-E3B705E6CB59">
+<createdBy>Jose Capdeville P</createdBy>
+<createdTime>2021-06-27 22:39:42 UTC</createdTime>
+<ownerDesignName>MER_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B62638BF-A21B-B3E2-E29F-6F0D8A6A7693" name="Juegos_PK">
+<createdBy>Jose Capdeville P</createdBy>
+<createdTime>2021-06-27 22:40:26 UTC</createdTime>
+<ownerDesignName>MER_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22493280-BB35-2387-379B-2019E39B1DD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1150BC1-8A2E-C53C-0BDE-C1AD742D00A4" name="Juegos_Consola_FK">
+<createdBy>Jose Capdeville P</createdBy>
+<createdTime>2021-06-27 22:40:26 UTC</createdTime>
+<ownerDesignName>MER_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51B19354-56E3-769C-3849-802E414F7075"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
