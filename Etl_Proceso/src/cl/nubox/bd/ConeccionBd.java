@@ -31,17 +31,7 @@ public class ConeccionBd {
 			 
 			urll = "jdbc:oracle:thin:@localhost:1521:xe";
 			 
-			conexion=DriverManager.getConnection(urll,"SVR_TOA","Joselo50");
-			 
-			Statement stmt = conexion.createStatement();
-			 
-			ResultSet rset = stmt.executeQuery("select * from OFSC_MOVE");
-			
-			while(rset.next())
-			{
-				System.out.println(rset.getString(2) );
-			 
-			}
+			conexion=DriverManager.getConnection(urll,"SVR_TOA","of1c14l.25");
 		 
 		} catch(SQLException s){
 		 

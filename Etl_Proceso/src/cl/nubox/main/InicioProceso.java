@@ -22,6 +22,9 @@ public class InicioProceso {
 		
 		/* Carga tabla con notas de usuarios */
 		cl.nubox.bd.GrabaDatosTablaEsquema.cargaTablaNotas(conn);
+		
+		/* Cierre de conexión a BD */
+		conn.close();
 
 	}
 	
