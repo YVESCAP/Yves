@@ -19,4 +19,5 @@ Dentro de archivo Excel DatosVideoJuegos.xlsx se encuentra la data solicitada:
 - Los 10 peores juegos para cada consola / empresa.
 - Los 10 mejores juegos para todas las consolas.
 - Los 10 peores juegos para todas las consolas.
+- 
 y sus respectivas consultas para obtener la información desde el modelo de datos construído
