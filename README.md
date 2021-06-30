@@ -12,3 +12,11 @@ El proyecto se encuentra en la carpeta: Etl_Proceso
 # Modelo de Datos
 Para el modelamiento de las tablas se usó herramienta Oracle SQL Developer DataModeler, se optó por esta herramienta debido a que ya se había trabajado con ella.
 Los objetos creados y la imagen del modelo se encuentran en la carpeta DataModel
+
+# Consultas al Modelo
+Dentro de archivo Excel DatosVideoJuegos.xlsx se encuentra la data solicitada:
+- Los 10 mejores juegos para cada consola / empresa.
+- Los 10 peores juegos para cada consola / empresa.
+- Los 10 mejores juegos para todas las consolas.
+- Los 10 peores juegos para todas las consolas.
+y sus respectivas consultas para obtener la información desde el modelo de datos construído
